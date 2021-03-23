@@ -14,8 +14,8 @@ export const Container = styled.div`
 `
 export const Image = styled.p`
   position: absolute;
-  width: 110px;
-  height: 56px;
+  width: 10%;
+  height: 26%;
   left: 387px;
   /* top: 12px; */
 
