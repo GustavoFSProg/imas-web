@@ -39,13 +39,26 @@ export const Image = styled.p`
 
   color: #ffffff;
 `
+export const Logo = styled.img`
+  width: 13%;
+  background: green;
+
+  @media screen and (max-width: 400px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+    width: 25%;
+  } ;
+`
 
 export const ImageFooter = styled.p`
   /* position: absolute; */
   width: 110px;
   height: 56px;
-  left: 481px;
-  top: -17px;
+  margin-left: -7px;
+  margin-top: 57px;
+  /* background: red; */
 
   font-family: Handlee;
   font-style: normal;

@@ -1,12 +1,15 @@
 import React from 'react'
-import { Container, ContainerLogo, Image, ImageFooter } from './styles'
+import { Container, Logo, ContainerLogo } from './styles'
+import logo from '../../assets/04-logo.svg'
 
 function Header() {
   return (
     <Container>
       <ContainerLogo>
-        <Image> ÍMÃ</Image>
-        <ImageFooter>gens</ImageFooter>
+        <Logo src={logo} alt="logo" />
+
+        {/* <Image> ÍMÃ</Image>
+        <ImageFooter>gens</ImageFooter> */}
       </ContainerLogo>
     </Container>
   )
