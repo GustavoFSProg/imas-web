@@ -1,11 +1,13 @@
 import React from 'react'
-import { Container, Image, ImageFooter } from './styles'
+import { Container, ContainerLogo, Image, ImageFooter } from './styles'
 
 function Header() {
   return (
     <Container>
-      <Image> ÍMÃ</Image>
-      <ImageFooter>gens</ImageFooter>
+      <ContainerLogo>
+        <Image> ÍMÃ</Image>
+        <ImageFooter>gens</ImageFooter>
+      </ContainerLogo>
     </Container>
   )
 }

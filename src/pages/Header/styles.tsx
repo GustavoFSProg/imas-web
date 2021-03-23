@@ -12,8 +12,14 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
 `
+export const ContainerLogo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+`
 export const Image = styled.p`
-  position: absolute;
+  /* position: relative; */
   width: 10%;
   height: 26%;
   left: 387px;
@@ -35,7 +41,7 @@ export const Image = styled.p`
 `
 
 export const ImageFooter = styled.p`
-  position: absolute;
+  /* position: absolute; */
   width: 110px;
   height: 56px;
   left: 481px;
